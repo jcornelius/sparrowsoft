@@ -42,9 +42,16 @@
       line-height: 1.7;
     }
 
+    a {
+      color: var(--accent);
+    }
+    a:hover {
+      color: var(--accent-light);
+    }
+
     .brand-logo {
-      width: 72px;
-      height: 72px;
+      width: 180px;
+      height: auto;
       margin-bottom: 1rem;
     }
 
@@ -124,10 +131,8 @@
       color: var(--accent);
     }
 
-    .investments p {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-bottom: 1.25rem;
+    .contact {
+      margin-top: 2rem;
     }
 
     footer {
@@ -145,7 +150,7 @@
 
     @media (min-width: 540px) {
       .portfolio .grid {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
       }
     }
   </style>
